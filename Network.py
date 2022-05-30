@@ -18,17 +18,7 @@ from keras import backend as K
 from keras.utils.data_utils import get_file
 from keras.utils.layer_utils import convert_all_kernels_in_model
 
-"""
-Neural Style Transfer with Keras 2.0.5
-
-Based on:
-https://github.com/keras-team/keras-io/blob/master/examples/generative/neural_style_transfer.py
-
-Contains few improvements suggested in the paper Improving the Neural Algorithm of Artistic Style
-(http://arxiv.org/abs/1605.04603).
-
 -----------------------------------------------------------------------------------------------------------------------
-"""
 
 THEANO_WEIGHTS_PATH_NO_TOP = 'https://github.com/fchollet/deep-learning-models/releases/download/v0.1/vgg16_weights_th_dim_ordering_th_kernels_notop.h5'
 TF_WEIGHTS_PATH_NO_TOP = 'https://github.com/fchollet/deep-learning-models/releases/download/v0.1/vgg16_weights_tf_dim_ordering_tf_kernels_notop.h5'
